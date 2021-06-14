@@ -32,7 +32,7 @@ Django基于`MVC`架构，即Model（模型）+View（视图）+ Controller（�
 
   Django的MTV模型组织可参考下图所示：
 
-  <img src="D:\file\Django\MTV.png" alt="MTV" style="zoom: 80%;" />
+  ![MTV](MTV.png)
 
 ### 2. 安装
 
@@ -97,7 +97,7 @@ Quit the server with CONTROL-C.
 
 打开你的浏览器，在地址栏输入`127.0.0.1:8000`，如果看到如下的界面，说明Django一切正常，你可以开始Django之旅了！
 
-<img src="D:\file\Django\django_startup.png" alt="django_startup" style="zoom:80%;" />
+![django_startup](django_startup.png)
 
 **Django提供了一个用于开发的web服务器，使你无需配置一个类似Ngnix的生产服务器，就能让站点运行起来。**这是一个由Python编写的轻量级服务器，简易并且不安全，因此不要将它用于生产环境。
 
@@ -306,7 +306,7 @@ Superuser created successfully.
 
 执行runserver命令启动服务器后，在浏览器访问`http://127.0.0.1:8000/admin/`。你就能看到admin的登陆界面了：
 
-<img src="D:\file\Django\admin.png" alt="admin" style="zoom:80%;" />
+![admin](admin.png)
 
 ### 7. 视图和模板
 
